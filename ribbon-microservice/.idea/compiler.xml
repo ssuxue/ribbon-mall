@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="eureka-client" />
+        <module name="ribbon-admin" />
+        <module name="ribbon-mpg" />
+        <module name="eureka-security-server" />
+        <module name="ribbon-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-security-server" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="ribbon-admin" target="1.8" />
+      <module name="ribbon-common" target="1.8" />
+      <module name="ribbon-microservice" target="1.8" />
+      <module name="ribbon-mpg" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-security-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="ribbon-admin" options="-parameters" />
+      <module name="ribbon-common" options="-parameters" />
+      <module name="ribbon-microservice" options="-parameters" />
+      <module name="ribbon-mpg" options="-parameters" />
+    </option>
+  </component>
+</project>
